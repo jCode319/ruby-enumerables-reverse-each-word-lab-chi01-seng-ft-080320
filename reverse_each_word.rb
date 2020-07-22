@@ -1,3 +1,4 @@
 def reverse_each_word(sentence)
-  sentence.collect do { element }
+  sentence.each do |element|
+    element.to_a?
 end
